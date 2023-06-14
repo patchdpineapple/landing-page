@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto", Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid gray;
+}
+
+header, footer, .one {
+    background-color: #1f2937;
+}
+
+header, footer, .one, .two, .three, .four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one, .two, .three, .four {
+    height: 200px;
+}
+
+
+header {
+    
+}
+
+.one {
+}
+    
+.two {
+
+}
+
+.three {
+    background-color: #e5e7eb;
+}
+
+.four {
+    
+}
+
+
+    
+    
+    
+
