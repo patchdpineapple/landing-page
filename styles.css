@@ -1,10 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     list-style: none;
     font-family: "Roboto", Georgia, 'Times New Roman', Times, serif;
-    border: 1px solid gray;
+   /*border: 1px solid gray; */
 }
 
 a:visited {
@@ -18,6 +17,12 @@ button {
     min-height: 24px;
     max-height: 24px;
     width: 100px
+    
+
+}
+
+header, footer {
+    padding: 10px;
 }
 
 header, footer, .one {
@@ -42,26 +47,35 @@ footer, .one, .two, .three, .four, .one-content {
 /* styles */
 .one, .two, .three, .four {
     height: 200px;
+    padding: 50px 20px;
 }
 
 /*  header styles */
 header {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 20%;
+
+    
 }
 
 nav {
     width: 10%;
-    background-color: blueviolet;
 }
 
 nav ul {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    justify-content: space-around;
+    gap: 20px;
 }
 
 nav li {
-    display: inline;
+    list-style: none;
+    
+    a {
+        text-decoration: none;
+    }
 }
 
 .logo {
@@ -105,6 +119,9 @@ nav li {
 .four {
     
 }
+
+/* all parts */
+
 
 
     
