@@ -47,7 +47,7 @@ footer, .one, .two, .three, .four, .one-content {
 /* styles */
 .one, .two, .three, .four {
     height: 200px;
-    padding: 50px 20px;
+    padding: 100px 20px;
 }
 
 /*  header styles */
@@ -55,8 +55,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20%;
-
-    
 }
 
 nav {
@@ -136,6 +134,27 @@ nav li {
 /* section three */
 .three {
     background-color: #e5e7eb;
+}
+
+.three-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    .quote {
+        background-color: #E5E7EB;
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .author {
+        font-size: 24px;
+        color: #1F2937;
+        font-weight: 700;
+        align-self: flex-end;
+    }
 }
 
 /* section four */
