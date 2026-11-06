@@ -110,6 +110,29 @@ nav li {
 
 }
 
+.two-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.card {
+    padding: 5px;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid darkcyan;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    text-align: center;
+    color: blueviolet;
+}
+
 /* section three */
 .three {
     background-color: #e5e7eb;
