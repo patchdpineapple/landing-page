@@ -162,6 +162,42 @@ nav li {
     
 }
 
+.four-content {
+    width: 60%;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.four-text {
+}
+
+.call-text {
+    font-size: 30px;
+    font-weight: 700px;
+    flex-grow: 2;
+}
+
+.sign-up-text {
+    font-size: 18px;
+    font-weight: 300px;
+    color: rgb(255, 255, 255);
+}
+
+.sign-up-button {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
 /* all parts */
 
 
